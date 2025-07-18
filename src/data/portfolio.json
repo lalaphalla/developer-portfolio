@@ -1,0 +1,116 @@
+{
+  "personal": {
+    "name": "Pav MunyPhalla",
+    "title": "Full Stack Developer & Software Engineer",
+    "description": "I build modern web applications with cutting-edge technologies. Passionate about creating user-friendly, scalable solutions that make a difference.",
+    "avatar": "YN",
+    "about": {
+      "paragraph1": "I'm a passionate software developer with X years of experience building web applications. I specialize in modern JavaScript frameworks, cloud technologies, and creating seamless user experiences.",
+      "paragraph2": "When I'm not coding, you can find me exploring new technologies, contributing to open source projects, or sharing knowledge with the developer community."
+    },
+    "quickFacts": [
+      "X+ years of development experience",
+      "Y+ projects completed",
+      "Z+ happy clients",
+      "Always learning new technologies"
+    ]
+  },
+  "contact": {
+    "email": "your.email@example.com",
+    "github": "github.com/yourusername",
+    "linkedin": "linkedin.com/in/yourusername",
+    "twitter": "twitter.com/yourusername"
+  },
+  "skills": {
+    "frontend": {
+      "icon": "FaCode",
+      "color": "blue",
+      "technologies": [
+        "React & Next.js",
+        "TypeScript",
+        "Tailwind CSS",
+        "HTML5 & CSS3"
+      ]
+    },
+    "backend": {
+      "icon": "FaLaptopCode",
+      "color": "green",
+      "technologies": [
+        "Node.js",
+        "Python",
+        "Express.js",
+        "REST APIs"
+      ]
+    },
+    "database": {
+      "icon": "FaDatabase",
+      "color": "purple",
+      "technologies": [
+        "PostgreSQL",
+        "MongoDB",
+        "Redis",
+        "SQL"
+      ]
+    },
+    "devops": {
+      "icon": "FaCloud",
+      "color": "orange",
+      "technologies": [
+        "AWS",
+        "Docker",
+        "Git",
+        "CI/CD"
+      ]
+    }
+  },
+  "projects": [
+    {
+      "id": 1,
+      "title": "AgTeach E-Learning Platform",
+      "description": "E-learning marketplace enabling instructors to create and sell video courses",
+      "keyFeature": "User authentication, course management, video streaming, payment processing, admin dashboard",
+      "outCome":"Successfully deployed on AWS with CI/CD pipeline, implemented secure JWT authentication",
+      "image": "/project-agteach.png",
+      "gradient": "from-blue-500 to-purple-600",
+      "technologies": ["React", "Node.js", "PostgreSQL"]
+    },
+    {
+      "id": 2,
+      "title": " Anchor Learning LMS",
+      "description": "Corporate learning platform with learner interface and admin dashboard.",
+      "keyFeature": "Resonsiveness with mobile friendly",
+      "outCome": "Migrated from Vue.js to React TypeScript, improving maintainability and performance",
+      "image": "/project-anchor.png",
+      "gradient": "from-green-500 to-blue-600",
+      "technologies": ["TypeScript", "React", "Material-UI"]
+    },
+    {
+      "id": 3,
+      "title": "Ora Organization Website",
+      "description": "Interactive organizational website showcasing projects and initiatives",
+      "image": "/project-ora.png",
+      "keyFeature": "Responsive design, fast loading times",
+      "gradient": "from-purple-500 to-pink-600",
+      "technologies": ["React", "TypeScript", "EmailJS"],
+      "outCome":"Successfully deployed on AWS Show case web on the event"
+    }
+  ],
+  "navigation": [
+    {
+      "label": "About",
+      "href": "#about"
+    },
+    {
+      "label": "Skills",
+      "href": "#skills"
+    },
+    {
+      "label": "Projects",
+      "href": "#projects"
+    },
+    {
+      "label": "Contact",
+      "href": "#contact"
+    }
+  ]
+} 
