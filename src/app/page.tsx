@@ -1,6 +1,7 @@
 import Contact from "@/component/contact";
 import HeroSection from "@/component/hero";
-import Navbar from "@/component/navbar";
+import Navbar from "@/component/nav-bar";
+// import Navbar from "@/component/navbar";
 import Project from "@/component/projects";
 import SkillSection from "@/component/skill";
 

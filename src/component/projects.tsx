@@ -3,17 +3,17 @@ import React from "react";
 import portfolioData from "../data/portfolio.json";
 import Image from "next/image";
 import heroLeftImage from "/public/hero-left.png";
+import SectionHeader from "./section-header";
 export default function Project() {
   const { personal, contact, skills, projects, navigation } = portfolioData;
   return (
     <section
-      id="projects"
+      id="experience"
       className="py-16 px-4 sm:px-6 lg:px-8 bg-[#EEE7DD] dark:bg-slate-800"
     >
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-3xl font-bold text-slate-800 dark:text-white mb-12">
-          Featured Projects
-        </h2>
+        <SectionHeader caption="EXPERIENCE" title="Working Experience" />
+
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project) => (
             <div
@@ -56,22 +56,6 @@ export default function Project() {
                       {tech}
                     </span>
                   ))}
-                </div>
-                <div className="flex space-x-4">
-                  {project.demoLink && (
-                    <a
-                      href={project.demoLink}
-                      className="text-blue-600 dark:text-blue-400 hover:underline"
-                    >
-                      Live Demo
-                    </a>
-                  )}
-                  {/* <a
-                    href={project.githubLink}
-                    className="text-slate-600 dark:text-slate-300 hover:underline"
-                  >
-                    GitHub
-                  </a> */}
                 </div>
               </div>
             </div>

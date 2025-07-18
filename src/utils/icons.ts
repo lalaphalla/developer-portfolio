@@ -21,5 +21,6 @@ export const iconMap = {
 };
 
 export const getIcon = (iconName: string) => {
+  console.log(iconMap)
   return iconMap[iconName as keyof typeof iconMap] || Code;
 };

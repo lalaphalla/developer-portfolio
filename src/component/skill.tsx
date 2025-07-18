@@ -1,14 +1,14 @@
 import React from "react";
 import portfolioData from "../data/portfolio.json";
 import { getIcon } from "@/utils/icons";
+import SectionHeader from "./section-header";
 export default function SkillSection() {
   const { personal, contact, skills, projects, navigation } = portfolioData;
   return (
     <section id="skills" className="py-16 px-4 sm:px-6 lg:px-8">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-3xl font-bold text-center text-slate-800 dark:text-white mb-12">
-          Skills & Technologies
-        </h2>
+        {" "}
+        <SectionHeader caption="SKILL" title="Skills & Technologies" />
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {Object.entries(skills).map(([key, skill]) => {
             const IconComponent = getIcon(skill.icon);

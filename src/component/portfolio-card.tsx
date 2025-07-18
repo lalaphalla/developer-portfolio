@@ -3,7 +3,7 @@ import React from "react";
 
 const ProfileCard = () => {
   return (
-    <div className="max-w-md mx-auto  shadow-md overflow-hidden md:max-w-2xl p-6">
+    <div className="max-w-md mx-auto md:mx-0  shadow-md overflow-hidden md:max-w-2xl p-6">
       <div className="flex flex-col space-y-4">
         {/* Name and Title */}
         <div>

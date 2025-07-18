@@ -5,8 +5,21 @@ import heroLeftImage from "../assets/image/hero-left.png";
 import heroWorkImage from "../assets/image/hero-work.png";
 import Image from "next/image";
 import ProfileCard from "./portfolio-card";
+import { Button } from "@/components/ui/button";
 
 const HeroSection = () => {
+  const handleScrollTo = (id: string) => {
+    const element = document.getElementById(id);
+    if (element) {
+      const offset = 80;
+      const elementPosition =
+        element.getBoundingClientRect().top + window.scrollY;
+      window.scrollTo({
+        top: elementPosition - offset,
+        behavior: "smooth",
+      });
+    }
+  };
   return (
     <section className="min-h-screen bg-gradient-to-br from-blue-50 to-purple-50 relative overflow-hidden">
       {/* Grid background pattern */}
@@ -67,23 +80,24 @@ const HeroSection = () => {
             <ProfileCard />
             <div className="space-y-6">
               {/* Call-to-action buttons */}
-              <div
-                className="flex flex-wrap gap-4 pt-4 justify-center md:justify-start"
-                style={{
-                  backgroundImage: `url('../assets/image/hero-work.png')`,
-                }}
-              >
-                <button className="bg-blue-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-blue-700 transition-colors">
-                  View Portfolio
-                </button>
-                <button className="border border-gray-300 text-gray-700 px-6 py-3 rounded-lg font-medium hover:bg-gray-50 transition-colors">
+              <div className="flex flex-wrap gap-4 pt-4 justify-center md:justify-start z-20">
+                <Button
+                  className="py-6 cursor-pointer z-30"
+                  onClick={() => handleScrollTo("experience")}
+                >
+                  View Experience
+                </Button>
+                <button
+                  className="border border-gray-300 cursor-pointer text-gray-700 px-6 py-3 rounded-lg font-medium hover:bg-gray-50 transition-colors z-30"
+                  onClick={() => handleScrollTo("contact")}
+                >
                   Contact Me
                 </button>
               </div>
             </div>
 
             {/* Decorative image in bottom right */}
-            <div className="absolute  md:-bottom-60 md:right-30 w-[528px] h-[550px]  overflow-hidden opacity-80">
+            <div className="absolute  md:-bottom-60 md:right-30 w-[528px] h-[550px]  overflow-hidden opacity-80 z-0">
               <div className="w-full h-full flex items-center justify-center">
                 {/* <div className="text-gray-600 text-sm">Workspace Image</div> */}
                 <div className="absolute top-1 -right-1 w-[528px] h-[550px]  overflow-hidden opacity-80">
