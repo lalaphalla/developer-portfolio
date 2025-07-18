@@ -19,14 +19,26 @@ export default function Project() {
               className="bg-slate-50 dark:bg-slate-700 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow"
             >
               <div className="h-48 w-full overflow-hidden">
-                <a href={project.link ?? ""} target="_blank">
+                {project.link ? (
+                  <a
+                    href={project.link ?? "#"}
+                    target={project.link ? "_blank" : "_self"}
+                  >
+                    <img
+                      src={project.image}
+                      alt={project.title}
+                      className="w-full h-full object-top"
+                      loading="lazy"
+                    />
+                  </a>
+                ) : (
                   <img
                     src={project.image}
                     alt={project.title}
                     className="w-full h-full object-top"
                     loading="lazy"
                   />
-                </a>
+                )}
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-semibold text-slate-800 dark:text-white mb-2">

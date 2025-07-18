@@ -94,6 +94,17 @@
       "gradient": "from-purple-500 to-pink-600",
       "technologies": ["React", "TypeScript", "EmailJS"],
       "outCome":"Successfully deployed on AWS Show case web on the event"
+    },
+    {
+      "id": 4,
+      "title": "MovieDB Entertainment Platform",
+      "description": "Movie discovery platform with search, details, and trailer integration",
+      "image": "/project-movie.png",
+      "keyFeature": "Integrate with external API",
+      "gradient": "from-purple-500 to-pink-600",
+      "technologies": ["React", "Tailwind CSS"],
+      "outCome":"Successfully show case dynamic movie discovery",
+      "link": "https://movie-db-zero.vercel.app/"
     }
   ],
   "navigation": [

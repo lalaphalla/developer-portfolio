@@ -2,16 +2,16 @@ import Image from "next/image";
 import React from "react";
 import portfolioData from "../data/portfolio.json";
 import { Github, Mail, Linkedin } from "lucide-react";
+import SectionHeader from "./section-header";
 
 export default function Contact() {
   const { contact } = portfolioData;
 
   return (
     <section id="contact" className="py-16 px-4 sm:px-6 lg:px-8  bg-[#EEE7DD]">
-      <div className="max-w-4xl mx-auto">
-        <h2 className="text-3xl font-bold text-center text-slate-800 dark:text-white mb-12">
-          Get In Touch
-        </h2>
+      <div className="max-w-6xl mx-auto">
+        <SectionHeader title="Get in touch" caption="CONTACT" />
+
         <div className="grid md:grid-cols-2 gap-12">
           <div>
             <Image src="/contact.svg" width={511} height={419} alt="contact" />
