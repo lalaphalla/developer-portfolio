@@ -1,11 +1,9 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 import portfolioData from "../data/portfolio.json";
-import Image from "next/image";
-import heroLeftImage from "/public/hero-left.png";
 import SectionHeader from "./section-header";
 export default function Project() {
-  const { personal, contact, skills, projects, navigation } = portfolioData;
+  const { projects } = portfolioData;
   return (
     <section
       id="experience"

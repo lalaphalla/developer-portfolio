@@ -2,7 +2,6 @@
 import React from "react";
 
 import heroLeftImage from "../assets/image/hero-left.png";
-import heroWorkImage from "../assets/image/hero-work.png";
 import Image from "next/image";
 import ProfileCard from "./portfolio-card";
 import { Button } from "@/components/ui/button";

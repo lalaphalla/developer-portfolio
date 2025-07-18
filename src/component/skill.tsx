@@ -3,7 +3,7 @@ import portfolioData from "../data/portfolio.json";
 import { getIcon } from "@/utils/icons";
 import SectionHeader from "./section-header";
 export default function SkillSection() {
-  const { personal, contact, skills, projects, navigation } = portfolioData;
+  const { skills } = portfolioData;
   return (
     <section id="skills" className="py-16 px-4 sm:px-6 lg:px-8">
       <div className="max-w-6xl mx-auto">
