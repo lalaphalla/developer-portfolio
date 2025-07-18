@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 "use client";
 import React, { useState } from "react";
 import { Menu, X } from "lucide-react";
@@ -32,8 +33,9 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           {/* <div className="flex-shrink-0 font-bold text-xl">Logo</div> */}
-          <div className="w-8 h-8 bg-black rounded-full flex items-center justify-center">
-            <span className="text-white font-bold">P</span>{" "}
+          <div className="w-10 h-10 bg-black rounded-full flex items-center justify-center">
+            <img src="/logo.png" alt="logo" width={200} height={200} />
+            {/* <span className="text-white font-bold">P</span>{" "} */}
           </div>
           {/* Desktop Navigation */}
           <div className="hidden md:flex space-x-8">

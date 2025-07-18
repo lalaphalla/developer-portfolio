@@ -72,7 +72,8 @@
       "outCome":"Successfully deployed on AWS with CI/CD pipeline, implemented secure JWT authentication",
       "image": "/project-agteach.png",
       "gradient": "from-blue-500 to-purple-600",
-      "technologies": ["React", "Node.js", "PostgreSQL"]
+      "technologies": ["React", "Node.js", "PostgreSQL"],
+      "link": "https://agteach.munyphalla.tech"
     },
     {
       "id": 2,
