@@ -19,6 +19,19 @@ const HeroSection = () => {
       });
     }
   };
+
+  const downloadResumeButton = () => (
+    <a
+      href="/Pav-MunyPhalla-Resume-Software-Developer.pdf"
+      download="Pav-MunyPhalla-Resume.pdf"
+      // className="inline-block border border-gray-200 rounded-lg px-4 p-2 hover:bg-gray-50 transition-colors duration-200 no-underline text-gray-800 hover:text-gray-900"
+    >
+      <div className="flex items-center gap-2.5">
+        <span className="font-semibold">Download Resume</span>
+        <span className="ml-auto text-lg">↓</span>
+      </div>
+    </a>
+  );
   return (
     <section className="min-h-screen bg-gradient-to-br from-blue-50 to-purple-50 relative overflow-hidden">
       {/* Grid background pattern */}
@@ -80,17 +93,15 @@ const HeroSection = () => {
             <div className="space-y-6">
               {/* Call-to-action buttons */}
               <div className="flex flex-wrap gap-4 pt-4 justify-center md:justify-start z-20">
-                <Button
-                  className="py-6 cursor-pointer z-30"
+                <Button className="py-6 cursor-pointer z-30">
+                  {downloadResumeButton()}
+                </Button>
+
+                <button
+                  className="border border-gray-300 cursor-pointer text-gray-700 px-6 py-3 rounded-lg font-medium hover:bg-gray-50 transition-colors z-30"
                   onClick={() => handleScrollTo("experience")}
                 >
                   View Experience
-                </Button>
-                <button
-                  className="border border-gray-300 cursor-pointer text-gray-700 px-6 py-3 rounded-lg font-medium hover:bg-gray-50 transition-colors z-30"
-                  onClick={() => handleScrollTo("contact")}
-                >
-                  Contact Me
                 </button>
               </div>
             </div>

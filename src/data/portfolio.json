@@ -73,7 +73,7 @@
       "image": "/project-agteach.png",
       "gradient": "from-blue-500 to-purple-600",
       "technologies": ["React", "Node.js", "PostgreSQL"],
-      "link": "https://agteach.munyphalla.tech"
+      "link": "https://ag-teach.munyphalla.tech"
     },
     {
       "id": 2,
