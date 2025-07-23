@@ -98,13 +98,26 @@
     {
       "id": 4,
       "title": "MovieDB Entertainment Platform",
-      "description": "Movie discovery platform with search, details, and trailer integration",
+      "description": "A comprehensive movie discovery platform featuring advanced search functionality, detailed movie information, and integrated trailer playback.",
       "image": "/project-movie.png",
-      "keyFeature": "Integrate with external API",
+      "keyFeature": "Seamless integration with The Movie Database (TMDB) API for real-time data",
       "gradient": "from-purple-500 to-pink-600",
-      "technologies": ["React", "Tailwind CSS"],
-      "outCome":"Successfully show case dynamic movie discovery",
-      "link": "https://movie-db-zero.vercel.app/"
+      "technologies": ["React", "Tailwind CSS", "API Integration", "React Hooks"],
+      "outCome": "Successfully delivered a dynamic movie discovery experience with real-time data fetching and responsive design",
+      "link": "https://movie-db-zero.vercel.app/",
+      "category": "Web Application"
+    },
+    {
+      "id": 5,
+      "title": "Sudrain Organization Website",
+      "description": "A professional website for Sudrain showcasing their sustainable wastewater treatment solutions and environmental initiatives.",
+      "image": "/project-sudrain.png",
+      "keyFeature": "Client-focused development with regular updates and communication",
+      "gradient": "from-purple-500 to-pink-600",
+      "technologies": ["WordPress", "Elementor", "Responsive Design", "SEO Optimization"],
+      "outCome": "Successfully delivered a client-approved website that effectively communicates their mission and projects",
+      "link": "https://sudrain.com/",
+      "category": "Business Website"
     }
   ],
   "navigation": [

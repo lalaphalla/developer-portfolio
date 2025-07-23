@@ -118,7 +118,6 @@ const HeroSection = () => {
                       backgroundImage: `url('../assets/image/hero-work.png')`,
                     }}
                   >
-                    aa
                     {/* <div className="text-gray-600 text-sm">Workspace Image</div> */}
                   </div>
                 </div>
