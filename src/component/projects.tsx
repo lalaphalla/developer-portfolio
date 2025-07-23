@@ -6,11 +6,11 @@ export default function Project() {
   const { projects } = portfolioData;
   return (
     <section
-      id="experience"
-      className="py-16 px-4 sm:px-6 lg:px-8 bg-[#EEE7DD] dark:bg-slate-800"
+      id="project"
+      className="py-16 px-4 sm:px-6 lg:px-8 dark:bg-slate-800"
     >
       <div className="max-w-6xl mx-auto">
-        <SectionHeader caption="EXPERIENCE" title="Working Experience" />
+        <SectionHeader caption="Project" title="Project" />
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project) => (

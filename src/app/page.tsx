@@ -1,4 +1,5 @@
 import Contact from "@/component/contact";
+import Experience from "@/component/experience";
 import HeroSection from "@/component/hero";
 import Navbar from "@/component/nav-bar";
 // import Navbar from "@/component/navbar";
@@ -13,7 +14,7 @@ export default function Home() {
           <Navbar />
         </div>
         <HeroSection />
-        {/* <Experience /> */}
+        <Experience />
         <Project />
 
         <SkillSection />

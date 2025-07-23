@@ -77,23 +77,14 @@
     },
     {
       "id": 2,
-      "title": " Anchor Learning LMS",
-      "description": "Corporate learning platform with learner interface and admin dashboard.",
-      "keyFeature": "Resonsiveness with mobile friendly",
-      "outCome": "Migrated from Vue.js to React TypeScript, improving maintainability and performance",
-      "image": "/project-anchor.png",
-      "gradient": "from-green-500 to-blue-600",
-      "technologies": ["TypeScript", "React", "Material-UI"]
-    },
-    {
-      "id": 3,
-      "title": "Ora Organization Website",
-      "description": "Interactive organizational website showcasing projects and initiatives",
-      "image": "/project-ora.png",
-      "keyFeature": "Responsive design, fast loading times",
-      "gradient": "from-purple-500 to-pink-600",
-      "technologies": ["React", "TypeScript", "EmailJS"],
-      "outCome":"Successfully deployed on AWS Show case web on the event"
+      "title": "AgTeach E-Learning Instructor Platform",
+      "description": "A platform for instructors to create and manage market, online courses, including video uploads and course sales.",
+      "keyFeature": "User authentication, course management, admin dashboard",
+      "outCome":"Successfully deployed on AWS with CI/CD pipeline, implemented secure JWT authentication",
+      "image": "/project-aginstructor.png",
+      "gradient": "from-blue-500 to-purple-600",
+      "technologies": ["React", "Node.js", "PostgreSQL"],
+      "link": "https://ag-instructor.munyphalla.tech"
     },
     {
       "id": 4,
@@ -106,15 +97,39 @@
       "outCome": "Successfully delivered a dynamic movie discovery experience with real-time data fetching and responsive design",
       "link": "https://movie-db-zero.vercel.app/",
       "category": "Web Application"
+    }
+  ],
+  "experience": [    
+    {
+      "id": 1,
+      "company": "EMCAST",
+      "title": "Anchor Learning Management System",
+      "description": "Worked on the corporate learning management system, enhancing the learner interface and admin dashboard.",
+      "technologies": ["TypeScript", "React", "Material-UI"],
+      "keyFeature": "Resonsiveness with mobile friendly",
+      "outCome": "Migrated from Vue.js to React TypeScript, improving maintainability and performance",
+      "image": "/project-anchor.png"      
     },
     {
-      "id": 5,
+      "id": 2,
+      "company": "EMCAST",
+      "title": "Ora Organization Website",
+      "description": "Interactive organizational website showcasing projects and initiatives",
+      "image": "/project-ora.png",
+      "keyFeature": "Responsive design, fast loading times",
+      "gradient": "from-purple-500 to-pink-600",
+      "technologies": ["React", "TypeScript", "EmailJS"],
+      "outCome":"Successfully deployed on AWS Show case web on the event"   
+    },    
+    {
+      "id": 3,
+      "company": "SUDRAIN",
       "title": "Sudrain Organization Website",
       "description": "A professional website for Sudrain showcasing their sustainable wastewater treatment solutions and environmental initiatives.",
       "image": "/project-sudrain.png",
       "keyFeature": "Client-focused development with regular updates and communication",
       "gradient": "from-purple-500 to-pink-600",
-      "technologies": ["WordPress", "Elementor", "Responsive Design", "SEO Optimization"],
+      "technologies": ["WordPress", "Elementor", "Responsive Design", "Freelancing"],
       "outCome": "Successfully delivered a client-approved website that effectively communicates their mission and projects",
       "link": "https://sudrain.com/",
       "category": "Business Website"

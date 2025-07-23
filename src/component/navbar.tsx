@@ -13,6 +13,7 @@ import { useState } from "react";
 // Define your navigation items with corresponding section IDs
 const navItems = [
   { label: "Work Experience", id: "experience" },
+  { label: "Project", id: "project" },
   { label: "Skills", id: "skills" },
   { label: "Contact Me", id: "contact" },
 ];
