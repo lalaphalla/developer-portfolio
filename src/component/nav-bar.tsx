@@ -18,7 +18,7 @@ const Navbar = () => {
     setMobileMenuOpen(false);
     const element = document.getElementById(id);
     if (element) {
-      const offset = 80;
+      const offset = 50;
       const elementPosition =
         element.getBoundingClientRect().top + window.scrollY;
       window.scrollTo({
